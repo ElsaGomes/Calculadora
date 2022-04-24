@@ -1,8 +1,8 @@
-h1 {
+/* h1 {
   text-align: center;
   margin-top: 0.67em;
   margin-bottom: 0.67em;
-}
+} */
 * {
   margin: 0;
   padding: 0;
@@ -11,28 +11,20 @@ h1 {
   margin: auto;
   width: 25%;
   padding: 10px;
-  border: 1px solid #f2f2f2;
-  -webkit-box-shadow: 1px 1px 4px 0px rgba(176, 176, 176, 1);
-  -moz-box-shadow: 1px 1px 4px 0px rgba(176, 176, 176, 1);
-  box-shadow: 1px 1px 4px 0px rgba(176, 176, 176, 1);
-  background-color: #fff;
-  height: 450px;
-  background-color: #f8f8f8;
-}
-.header {
-  background-color: #81c784;
-  padding: 10px;
-  color: #fff;
-  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 200;
+  font-size: 4px;
+  text-rendering: optimizeLegibility;
 }
 .result {
-  font-size: 24px;
-  padding: 24px 5px;
+  font-size: 29px;
+  padding: 12px 6px;
   font-weight: 700;
   text-align: right;
-  width: 96%;
+  width: 73%;
   border: none;
-  background-color: #f8f8f8;
+  color: #f2f2f2;
+  background-color: gray;
 }
 .first-row,
 .second-row,
@@ -43,16 +35,21 @@ h1 {
   width: 100%;
 }
 .global {
-  padding: 15px;
+  padding: 8px;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 26px;
   border: none;
   border-radius: 3px;
-  background-color: #f2f2f2;
+  background-color: gray;
   float: left;
-  width: 23.5%;
+  width: 18%;
   margin: 0 2px;
-  /*border: 1px solid #000;*/
+  color: white;
+}
+.global:hover {
+  background-color: #323330;
+  color: white;
+  transition: 0.5s ease-in-out;
 }
 .conflict .left,
 .conflict .right {
@@ -66,6 +63,25 @@ h1 {
   width: 24%;
 }
 .big {
+  padding: 8px;
+  font-weight: bold;
+  font-size: 26px;
+  border: none;
+  border-radius: 3px;
+  float: left;
+  width: 37%;
+  margin: 0 2px;
+}
+.orange{
+  background-color: orange;
+}
+.orange:hover{
+  background-color: rgb(255, 136, 0);
+}
+.black{
+  background-color: rgba(0, 0, 0, 0.719);
+}
+/* .small {
   padding: 15px;
   font-weight: bold;
   font-size: 16px;
@@ -73,20 +89,9 @@ h1 {
   border-radius: 3px;
   background-color: #f2f2f2;
   float: left;
-  width: 64.5%;
+  width: 31%;
   margin: 0 2px;
-}
-.small {
-  padding: 15px;
-  font-weight: bold;
-  font-size: 16px;
-  border: none;
-  border-radius: 3px;
-  background-color: #f2f2f2;
-  float: left;
-  width: 31.5%;
-  margin: 0 2px;
-}
+} */
 .plus {
   height: 105px;
   width: 100%;
