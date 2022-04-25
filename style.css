@@ -1,28 +1,36 @@
-/* h1 {
-  text-align: center;
-  margin-top: 0.67em;
-  margin-bottom: 0.67em;
-} */
+body {
+  background-image: url('https://wallpaperaccess.com/full/882671.jpg');
+  background-repeat: no-repeat;
+  background-size: 1400px 980px;
+}
 * {
   margin: 0;
   padding: 0;
 }
 .container {
-  margin: auto;
+  /* margin: auto;
   width: 25%;
-  padding: 10px;
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 200;
-  font-size: 4px;
-  text-rendering: optimizeLegibility;
+  padding: 201px; */
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  user-select: none;
+  border-radius: 20px;
+  background-color: transparent;
+  min-width: 240px;
+  max-width: 240px;
+  min-height: 314px;
+  max-height: 330px;
+  padding: 0;
+  box-shadow: 0px 0px 120px black;
 }
 .result {
   font-size: 29px;
   padding: 12px 6px;
-  font-weight: 700;
   text-align: right;
-  width: 73%;
+  width: 94%;
   border: none;
+  border-radius: 16px;
   color: #f2f2f2;
   background-color: gray;
 }
@@ -32,18 +40,18 @@
 .fourth-row,
 .conflict {
   display: inline-block;
-  width: 100%;
+  width: 130%;
 }
 .global {
   padding: 8px;
   font-weight: bold;
   font-size: 26px;
   border: none;
-  border-radius: 3px;
+  border-radius: 6px;
   background-color: gray;
   float: left;
-  width: 18%;
-  margin: 0 2px;
+  width: 18.5%;
+  margin: -1px 1px;
   color: white;
 }
 .global:hover {
@@ -67,9 +75,9 @@
   font-weight: bold;
   font-size: 26px;
   border: none;
-  border-radius: 3px;
+  border-radius: 6px;
   float: left;
-  width: 37%;
+  width: 37.4%;
   margin: 0 2px;
 }
 .orange{
@@ -80,34 +88,4 @@
 }
 .black{
   background-color: rgba(0, 0, 0, 0.719);
-}
-/* .small {
-  padding: 15px;
-  font-weight: bold;
-  font-size: 16px;
-  border: none;
-  border-radius: 3px;
-  background-color: #f2f2f2;
-  float: left;
-  width: 31%;
-  margin: 0 2px;
-} */
-.plus {
-  height: 105px;
-  width: 100%;
-}
-.green {
-  background-color: #81c784;
-}
-.red {
-  background-color: #f50258;
-}
-.grey {
-  background-color: #f2f2f2;
-}
-.white-text {
-  color: #fff;
-}
-.top-margin {
-  margin-top: 4px;
 }
